@@ -85,7 +85,7 @@ extension RefreshableView: UIViewRepresentable {
         
         let contentSize = hosting.view.intrinsicContentSize
         
-        hosting.view.frame = CGRect(origin: .zero, size: contentSize)
+        hosting.view.frame = CGRect(origin: .zero, size: CGSize(width: width, height: contentSize.height))
         uiView.contentSize = contentSize
         
         // 上拉加载如果有更多内容就向上稍微滚动一点
