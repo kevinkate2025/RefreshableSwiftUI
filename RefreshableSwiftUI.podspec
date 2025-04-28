@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RefreshableSwiftUI'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'A SwiftUI component for pull-to-refresh and load-more using MJRefresh.'
   s.description      = <<-DESC
   RefreshableSwiftUI is a SwiftUI component that integrates the popular MJRefresh library to provide
