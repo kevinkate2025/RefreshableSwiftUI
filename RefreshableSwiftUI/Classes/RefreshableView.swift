@@ -18,7 +18,6 @@ public struct RefreshableView<Header: MJRefreshHeader, Footer: MJRefreshFooter, 
         self.headerAction = headerAction
         self.footerAction = footerAction
         self.content = content()
-        
     }
 }
 
@@ -30,10 +29,6 @@ extension RefreshableView: UIViewRepresentable {
         
         if let header = header {
             uiView.mj_header = header.init { [weak uiView] in
-                let uiView0 = uiView
-                let mj_header0 = uiView?.mj_header as? Header
-                let headerAction0 = headerAction
-                
                 guard let uiView = uiView,
                       let mj_header = uiView.mj_header as? Header,
                       let headerAction = headerAction else {
