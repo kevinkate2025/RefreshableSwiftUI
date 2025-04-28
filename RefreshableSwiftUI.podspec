@@ -20,7 +20,5 @@ Pod::Spec.new do |s|
   
   s.source_files = 'RefreshableSwiftUI/Classes/*'
   
-#  s.frameworks = 'SwiftUI'
-  
   s.dependency 'MJRefresh'
 end
