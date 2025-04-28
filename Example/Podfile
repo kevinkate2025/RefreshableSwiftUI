@@ -1,0 +1,9 @@
+source 'https://github.com/Cocoapods/Specs.git'
+use_frameworks!
+inhibit_all_warnings!
+
+platform :ios, '18.0'
+
+target 'RefreshableSwiftUI_Example' do
+  pod 'RefreshableSwiftUI', :path => '../'
+end
