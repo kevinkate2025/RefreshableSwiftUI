@@ -11,7 +11,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Usage
 
-struct ContentView: View {
     @State var datas: [Int] = [0]
     
     var body: some View {
@@ -45,7 +44,6 @@ struct ContentView: View {
             }
         }
     }
-}
 
 ## Installation
 
