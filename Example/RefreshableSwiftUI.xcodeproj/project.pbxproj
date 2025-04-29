@@ -12,14 +12,16 @@
 
 /* Begin PBXFileReference section */
 		0AE7E9752DAB35DE00A918A6 /* RefreshableSwiftUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshableSwiftUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		25BEA58D5B6468383A0A46EB /* Pods-RefreshableSwiftUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RefreshableSwiftUI_Example.release.xcconfig"; path = "Target Support Files/Pods-RefreshableSwiftUI_Example/Pods-RefreshableSwiftUI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2A2B5FBB2023DAECE3A9A5C6 /* Pods-RefreshableSwiftUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RefreshableSwiftUI_Example.debug.xcconfig"; path = "Target Support Files/Pods-RefreshableSwiftUI_Example/Pods-RefreshableSwiftUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AD5AA3A5F1471864B32C1B3F /* Pods-RefreshableSwiftUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RefreshableSwiftUI_Example.release.xcconfig"; path = "Target Support Files/Pods-RefreshableSwiftUI_Example/Pods-RefreshableSwiftUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CF62517CD9D0EAAF7DC29990 /* Pods-RefreshableSwiftUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RefreshableSwiftUI_Example.debug.xcconfig"; path = "Target Support Files/Pods-RefreshableSwiftUI_Example/Pods-RefreshableSwiftUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ED8138D096C410BCC2E93C0F /* Pods_RefreshableSwiftUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RefreshableSwiftUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0AE7E9762DAB35DE00A918A6 /* RefreshableSwiftUI_Example */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = RefreshableSwiftUI_Example;
 			sourceTree = "<group>";
 		};
@@ -42,8 +44,8 @@
 			children = (
 				0AE7E9762DAB35DE00A918A6 /* RefreshableSwiftUI_Example */,
 				0AE7E95E2DAB355200A918A6 /* Products */,
-				123547D6A4D33CDC822755CF /* Pods */,
 				5231DFC8D90B3F44C6B80BCE /* Frameworks */,
+				A470ECC4695D246EA2A0FC14 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,21 +57,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		123547D6A4D33CDC822755CF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2A2B5FBB2023DAECE3A9A5C6 /* Pods-RefreshableSwiftUI_Example.debug.xcconfig */,
-				25BEA58D5B6468383A0A46EB /* Pods-RefreshableSwiftUI_Example.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		5231DFC8D90B3F44C6B80BCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED8138D096C410BCC2E93C0F /* Pods_RefreshableSwiftUI_Example.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A470ECC4695D246EA2A0FC14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF62517CD9D0EAAF7DC29990 /* Pods-RefreshableSwiftUI_Example.debug.xcconfig */,
+				AD5AA3A5F1471864B32C1B3F /* Pods-RefreshableSwiftUI_Example.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,13 +175,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RefreshableSwiftUI_Example/Pods-RefreshableSwiftUI_Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RefreshableSwiftUI_Example/Pods-RefreshableSwiftUI_Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -321,7 +320,7 @@
 		};
 		0AE7E97D2DAB35DE00A918A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A2B5FBB2023DAECE3A9A5C6 /* Pods-RefreshableSwiftUI_Example.debug.xcconfig */;
+			baseConfigurationReference = CF62517CD9D0EAAF7DC29990 /* Pods-RefreshableSwiftUI_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -352,7 +351,7 @@
 		};
 		0AE7E97E2DAB35DE00A918A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25BEA58D5B6468383A0A46EB /* Pods-RefreshableSwiftUI_Example.release.xcconfig */;
+			baseConfigurationReference = AD5AA3A5F1471864B32C1B3F /* Pods-RefreshableSwiftUI_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
