@@ -12,8 +12,8 @@
 
 /* Begin PBXFileReference section */
 		0AE7E9752DAB35DE00A918A6 /* RefreshableSwiftUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshableSwiftUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD5AA3A5F1471864B32C1B3F /* Pods-RefreshableSwiftUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RefreshableSwiftUI_Example.release.xcconfig"; path = "Target Support Files/Pods-RefreshableSwiftUI_Example/Pods-RefreshableSwiftUI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CF62517CD9D0EAAF7DC29990 /* Pods-RefreshableSwiftUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RefreshableSwiftUI_Example.debug.xcconfig"; path = "Target Support Files/Pods-RefreshableSwiftUI_Example/Pods-RefreshableSwiftUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AD5AA3A5F1471864B32C1B3F /* Pods-RefreshableSwiftUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RefreshableSwiftUI_Example.release.xcconfig"; path = "../Example/Pods/Target Support Files/Pods-RefreshableSwiftUI_Example/Pods-RefreshableSwiftUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CF62517CD9D0EAAF7DC29990 /* Pods-RefreshableSwiftUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RefreshableSwiftUI_Example.debug.xcconfig"; path = "../Example/Pods/Target Support Files/Pods-RefreshableSwiftUI_Example/Pods-RefreshableSwiftUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ED8138D096C410BCC2E93C0F /* Pods_RefreshableSwiftUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RefreshableSwiftUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
